@@ -12,4 +12,4 @@
 `nc -lp 4444`
 
 
-Change the IP to your local IP in `reverse_shell.ino` file, then upload to your digispark. Done! Happy exploiting.
+Change the IP on line 17 to your local IP in `reverse_shell.ino` file, then upload to your digispark. Done! Happy exploiting.
