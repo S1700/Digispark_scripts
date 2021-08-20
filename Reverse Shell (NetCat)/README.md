@@ -1,3 +1,7 @@
+### Note the link in the script to download netcat on the victims pc will expire
+
+
+
 ## How to use:
 
 `git clone https://github.com/Samuel20354/Digispark_scripts.git`
