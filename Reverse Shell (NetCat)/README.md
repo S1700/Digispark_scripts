@@ -17,3 +17,12 @@
 
 
 Change the IP on line 17 to your local IP in `reverse_shell.ino` file, then upload to your digispark. Done! Happy exploiting.
+
+## How to remove:
+
+Go to `C:\` and on windows use `rmdir /S /Q win/`
+
+
+Then reboot the target's compueter
+
+Done!
