@@ -1,1 +1,1 @@
-Takes the SAM and system keys from the redgistery
+Takes the SAM and system keys from the registry
